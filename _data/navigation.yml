@@ -1,5 +1,8 @@
 # main links links
 main:
+  - tittle: "About Me"
+    url: /home/
+
   - title: "CV"
     url: /cv/
         
@@ -9,8 +12,8 @@ main:
   - title: "Gallery"
     url: /markdown/
   
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    
