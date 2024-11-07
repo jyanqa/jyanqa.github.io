@@ -3,7 +3,7 @@ main:
   - tittle: "About Me"
     url: /home/
 
-  - title: "CV"
+  - title: "Resume"
     url: /cv/
         
   - title: "Blog Posts"

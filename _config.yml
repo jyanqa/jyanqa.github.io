@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nguyen Quynh Anh/ Site Title"
+title                    : "Nguyen Quynh Anh"
 title_separator          : "-"
-name                     : &name "Nguyen QA"
-description              : &description "Graduate student"
+name                     : &name "Anh"
+description              : &description "Anh's website"
 url                      : https://jyanqa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jyanqa.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "quynhanh"
   avatar           : "profile.jpg"
-  bio              : #"Graduate student specializing in Natural Language Processing (NLP) and fine-tuning large language models (LLMs). I have authored multiple publications in ACL workshops and contributed blog articles on machine learning topics. Passionate about advancing AI research and building innovative NLP solutions."
+  bio              : "An NLP&ML Enthusiast"
   location         : "Zurich, Switzerland"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
