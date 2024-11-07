@@ -11,8 +11,8 @@ permalink: /markdown/
 title: "Gallery"
 author_profile: true
 redirect_from:
-  - /photo-gallery/
-  - /gallery.html
+  - /mdery/
+  - /markdown.html
 ---
 <!-- ## Locations of key files/directories
 
