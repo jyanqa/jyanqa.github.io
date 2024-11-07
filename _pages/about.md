@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Anh, a graduate student in Data Science with a focus on Machine Learning and Natural Language Processing. At [KNIME](https://www.knime.com), I had the chance to work on sports-related research applications using Machine Learning, e.g. [Does body size matter in Triathon?](https://www.knime.com/blog/does-body-size-matter-in-triathlon). My master’s [thesis](https://drive.google.com/file/d/1eVe5mFt36n26ADedGGOQgyazaaOQSimQ/view) at [ETH Zurich’s LRE Lab](https://lre.inf.ethz.ch) explored the effectiveness of Large Language Models for predicting prerequisite networks in textbooks. 
+Hi! I'm Anh, a graduate student in Data Science with a focus on Machine Learning and Natural Language Processing.
+
+ At [KNIME](https://www.knime.com), I had the chance to work on sports-related research applications using Machine Learning, e.g. [Does body size matter in Triathon?](https://www.knime.com/blog/does-body-size-matter-in-triathlon). My master’s [thesis](https://drive.google.com/file/d/1eVe5mFt36n26ADedGGOQgyazaaOQSimQ/view) at [ETH Zurich’s LRE Lab](https://lre.inf.ethz.ch) explored the effectiveness of Large Language Models for predicting prerequisite networks in textbooks. 
 
 I’ve been fortunate to win several ETH competitions, including challenges in [Hate Speech Detection](https://latsis2023.ethz.ch/program.html), [Arts Creation with LLMs Prompting](https://www.datathon.ai), and [Soccer Analytics](https://sn.ethz.ch/hs23/sasc.html) using ML approaches. 
 
