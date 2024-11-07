@@ -1,13 +1,20 @@
----
+<!-- ---
 permalink: /markdown/
 title: "Markdown"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
+--- -->
 ---
-
-## Locations of key files/directories
+permalink: /gallery/
+title: "Gallery"
+author_profile: true
+redirect_from:
+  - /photo-gallery/
+  - /gallery.html
+---
+<!-- ## Locations of key files/directories
 
 * Basic config options: _config.yml
 * Top navigation bar config: _data/navigation.yml
@@ -199,4 +206,4 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 
 ### Variable Tag
 
-This allows you to denote <var>variables</var>.
+This allows you to denote <var>variables</var>. -->
