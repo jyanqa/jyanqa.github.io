@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nguyen Quynh Anh"
+title                    : "quynhanh's website"
 title_separator          : "-"
 name                     : &name "Anh"
 description              : &description "Anh's website"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "quynhanh"
+  name             : "Nguyen Quynh Anh"
   avatar           : "profile.jpg"
   bio              : "An NLP&ML Enthusiast"
   location         : "Zurich, Switzerland"
