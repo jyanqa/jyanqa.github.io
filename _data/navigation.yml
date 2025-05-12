@@ -1,22 +1,20 @@
 # main links links
 main:
-  - tittle: "About Me"
+  - title: "About Me"
     url: /home/
 
-  - title: "Resume"
-    url: /cv/
-        
-  - title: "Posts"
+  - title: "Blog"
     url: /year-archive/
     
-  - title: "Gallery"
-    url: /markdown/
-  
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Publications"
+    url: /publications/
 
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Talks"
+    url: /talks/    
+
+  - title: "Contact"
+    url: /contact/
+
   # - title: "Teaching"
   #   url: /teaching/    
     
