@@ -53,12 +53,12 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
+$body-color                 : #ffffff !default;
 $background-color           : #ffffff !default;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray !default;
-$border-color               : $lighter-gray;
+$text-color                 : #333333 !default;
+$border-color               : mix(#fff, #333333, 75%) !default;
 
 $primary-color              : #008080 !default;  /* teal */
 $success-color              : #62c462;
@@ -94,7 +94,8 @@ $link-color                 : #008080 !default;  /* teal */
 $link-color-hover           : mix(#000, $link-color, 25%) !default;
 $link-color-visited         : mix(#fff, $link-color, 25%) !default;
 $masthead-link-color        : $text-color !default;
-$masthead-link-color-hover  : $primary-color !default;
+$masthead-link-color-hover  : $text-color !default;
+$navicon-link-color-hover   : mix(#fff, $text-color, 75%) !default;
 
 
 /*
