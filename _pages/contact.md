@@ -5,10 +5,6 @@ permalink: /contact/
 author_profile: true
 ---
 
-<!-- Content coming soon -->
-
-## Get in Touch
-
 <div class="contact-links">
-[Email](mailto:anhmilan@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aeghnquy) | [GitHub](https://github.com/jyanqa)
+<a href="mailto:anhmilan@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/aeghnquy">LinkedIn</a> | <a href="https://github.com/jyanqa">GitHub</a>
 </div> 
