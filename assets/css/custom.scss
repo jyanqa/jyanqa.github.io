@@ -5,11 +5,22 @@ sitemap: false
 /* Global link styles */
 a {
   color: #5F9EA0;
-  text-decoration: none;
+  text-decoration: none !important;
   
   &:hover {
     color: darken(#5F9EA0, 15%);
-    text-decoration: none;
+    text-decoration: none !important;
+  }
+}
+
+/* Main content link styles */
+.page__content {
+  a {
+    text-decoration: none !important;
+    
+    &:hover {
+      text-decoration: none !important;
+    }
   }
 }
 
