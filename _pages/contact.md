@@ -11,7 +11,7 @@ author_profile: true
 
 <div class="anonymous-message-box">
   <h3>Drop me an anonymous message</h3>
-  <form action="https://formspree.io/f/anhmilan@gmail.com" method="POST">
+  <form action="https://formspree.io/f/xkgrpwly" method="POST">
     <div class="form-group">
       <textarea name="message" placeholder="Your message..." rows="4" required></textarea>
     </div>
