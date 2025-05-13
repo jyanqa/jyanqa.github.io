@@ -4,9 +4,20 @@ permalink: /news/
 author_profile: true
 ---
 
-## Recent Updates
+<div class="construction-notice">
+🚧 Under Construction 🚧
+</div>
 
-* **November 2023**: Participated in ETH Latsis Symposium 2023 - Hate Speech Detection Challenge
-* **October 2023**: Presented at ETH Datathon.AI 2023 - Arts Creation with LLMs Prompting
-* **September 2023**: Completed Master's Thesis on Large Language Models for Prerequisite Learning
-* **August 2023**: Participated in ETH Sports Analytics Student Challenge 2023 - Soccer Analytics 
+<style>
+.construction-notice {
+  text-align: center;
+  padding: 1.1em;
+  margin-bottom: 2.2em;
+  background-color: #fff8e6;
+  border: 1px solid #ffe0b2;
+  border-radius: 4px;
+  color: #666;
+  font-family: "Lato", sans-serif;
+  font-size: 0.95em;
+}
+</style> 
