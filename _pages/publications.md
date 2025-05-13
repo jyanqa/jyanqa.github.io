@@ -16,10 +16,6 @@ author_profile: true
 * **[Cross-lingual Transfer Learning for Named Entity Recognition in Historical Texts](https://aclanthology.org/2022.vardial-1.10.pdf)**  
   *COLING Workshop on Computational Approaches to Historical Language Change 2022*
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
 {% for post in site.publications reversed %}
