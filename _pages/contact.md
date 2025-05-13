@@ -13,6 +13,4 @@ author_profile: true
 
 🔗 [LinkedIn](https://www.linkedin.com/in/aeghnquy)
 
-💻 [GitHub](https://github.com/jyanqa)
-
-📍 Location: Zurich, Switzerland 
+💻 [GitHub](https://github.com/jyanqa) 
