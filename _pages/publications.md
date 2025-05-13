@@ -12,6 +12,7 @@ author_profile: true
 
 <style>
 .pub-table {
+  border: none;
   width: 100%;
   border-collapse: collapse;
 }
@@ -21,6 +22,7 @@ author_profile: true
   vertical-align: top;
 }
 .pub-table td:first-child {
+  border: none;
   width: 20%;
   font-weight: bold;
 }
