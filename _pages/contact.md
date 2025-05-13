@@ -17,4 +17,5 @@ author_profile: true
     </div>
     <button type="submit">Send Message</button>
   </form>
+  <p class="form-note">Powered by <a href="https://formspree.io" target="_blank">Formspree</a>, a secure form service.</p>
 </div> 

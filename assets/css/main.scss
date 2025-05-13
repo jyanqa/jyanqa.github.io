@@ -175,9 +175,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.9em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 1em;
 
     &:hover {
       background-color: darken(#008080, 10%);
+    }
+  }
+
+  .form-note {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 0.5em;
+    font-family: "Open Sans", sans-serif;
+
+    a {
+      color: #008080;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
