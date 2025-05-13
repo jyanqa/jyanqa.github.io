@@ -17,6 +17,9 @@ author_profile: true
 * **[Multilingual Named Entity Recognition for Socio-political Event Data](https://ceur-ws.org/Vol-3180/paper-86.pdf)**  
   *CLEF 2022*
 
+* **[Cross-lingual Transfer Learning for Named Entity Recognition in Historical Texts](https://aclanthology.org/2022.vardial-1.10.pdf)**  
+  *COLING Workshop on Computational Approaches to Historical Language Change 2022*
+
 <!-- {% include base_path %}
 
 {% for post in site.publications reversed %}
