@@ -45,13 +45,14 @@ sitemap: false
 body {
   background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.65;
+  line-height: 1.5;
+  font-size: 0.85em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 .page__content {
@@ -60,6 +61,8 @@ h1, h2, h3, h4, h5, h6 {
   p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    font-size: 0.85em;
+    line-height: 1.5;
   }
 }
 
@@ -76,23 +79,25 @@ h1, h2, h3, h4, h5, h6 {
 .site-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
+  font-size: 1.1em;
 }
 
 .nav__items {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  font-size: 0.9em;
 }
 
 /* Blog post styling */
 .post-entry {
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
   text-align: left;
-  padding: 0 2em;
+  padding: 0 1.5em;
   
   .post-title {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #333333;
     text-decoration: none;
     
@@ -124,37 +129,37 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Anonymous message box styling */
 .anonymous-message-box {
-  max-width: 400px;
-  margin: 3em auto;
-  padding: 1.5em;
+  max-width: 350px;
+  margin: 2em auto;
+  padding: 1.2em;
   background-color: #f8f9fa;
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   text-align: center;
 
   h3 {
     text-align: center;
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
     color: #333333;
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 0.95em;
   }
 
   .form-group {
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
   }
 
   textarea {
     width: 100%;
-    padding: 0.8em;
+    padding: 0.6em;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.9em;
+    font-size: 0.85em;
     resize: vertical;
     transition: border-color 0.3s ease;
-    height: 100px;
+    height: 80px;
 
     &:focus {
       outline: none;
@@ -165,17 +170,17 @@ h1, h2, h3, h4, h5, h6 {
   button {
     display: inline-block;
     width: auto;
-    min-width: 120px;
-    padding: 0.6em 1.2em;
+    min-width: 100px;
+    padding: 0.5em 1em;
     background-color: #008080;
     color: white;
     border: none;
     border-radius: 4px;
     font-family: "Lato", sans-serif;
-    font-size: 0.9em;
+    font-size: 0.85em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
 
     &:hover {
       background-color: darken(#008080, 10%);
@@ -183,9 +188,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .form-note {
-    font-size: 0.8em;
+    font-size: 0.75em;
     color: #666;
-    margin-top: 0.5em;
+    margin-top: 0.4em;
     font-family: "Open Sans", sans-serif;
 
     a {
