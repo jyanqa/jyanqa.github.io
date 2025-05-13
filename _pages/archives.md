@@ -8,17 +8,6 @@ author_profile: true
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 
-## Projects
-
-* **Large Language Models for Prerequisite Learning** (2023)
-  - Master's Thesis at ETH Zurich
-  - Developed novel approaches for identifying prerequisite relationships in educational content using LLMs
-  - [Thesis PDF](https://drive.google.com/file/d/1eVe5mFt36n26ADedGGOQgyazaaOQSimQ/view)
-
-* **Named Entity Recognition Research** (2022)
-  - Research work on cross-domain and multilingual NER
-  - Published papers at EMNLP, CLEF, and COLING workshops
-
 ## Hackathons
 
 * **ETH Latsis Symposium 2023**
