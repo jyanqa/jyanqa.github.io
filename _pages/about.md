@@ -15,4 +15,3 @@ My master's [thesis](https://drive.google.com/file/d/1eVe5mFt36n26ADedGGOQgyazaa
 I've been fortunate to win several AL/ML ETH competitions, including challenges in [Hate Speech Detection](https://latsis2023.ethz.ch/program.html), [Arts Creation with LLMs Prompting](https://www.datathon.ai), and [Soccer Analytics](https://sn.ethz.ch/hs23/sasc.html) using ML approaches. 
 
 During my studies, I deepened my understanding of NLP through coursework and collaborative research, which led to workshop publications at top-tier NLP conferences, including [EMNLP 2022](https://aclanthology.org/2022.case-1.11.pdf), [CLEF 2022](https://ceur-ws.org/Vol-3180/paper-86.pdf), and [COLING 2022](https://aclanthology.org/2022.vardial-1.10.pdf). 
-
