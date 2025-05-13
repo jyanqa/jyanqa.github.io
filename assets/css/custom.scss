@@ -13,11 +13,11 @@ body {
 
 /* Global link styles */
 a {
-  color: #DA70D6;
+  color: #6B8E23;
   text-decoration: none !important;
   
   &:hover {
-    color: darken(#DA70D6, 15%);
+    color: darken(#6B8E23, 15%);
     text-decoration: none !important;
   }
 }
@@ -69,7 +69,7 @@ a {
           color: #666;
           
           &:hover {
-            color: #DA70D6;
+            color: #6B8E23;
           }
         }
       }
@@ -85,10 +85,10 @@ a {
     font-family: "Oxygen", sans-serif;
     
     a {
-      color: #DA70D6;
+      color: #6B8E23;
       
       &:hover {
-        color: darken(#DA70D6, 15%);
+        color: darken(#6B8E23, 15%);
         text-decoration: none;
       }
     }
