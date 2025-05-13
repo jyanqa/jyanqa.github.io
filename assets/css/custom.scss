@@ -2,6 +2,15 @@
 sitemap: false
 ---
 
+/* Global body styles */
+body {
+  line-height: 1.6;
+  color: #555;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
 /* Global link styles */
 a {
   color: #DA70D6;
@@ -21,6 +30,13 @@ a {
     &:hover {
       text-decoration: none !important;
     }
+  }
+  
+  p {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #555;
   }
 }
 
@@ -42,6 +58,7 @@ a {
       li {
         padding: 0;
         font-size: 0.85em;
+        font-family: "Oxygen", sans-serif;
         
         &:before {
           display: none;
@@ -65,6 +82,7 @@ a {
     color: #666;
     padding: 0.5em 1em;
     margin: 0;
+    font-family: "Oxygen", sans-serif;
     
     a {
       color: #DA70D6;
@@ -75,4 +93,16 @@ a {
       }
     }
   }
+}
+
+/* Navigation styles */
+.nav__items {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+
+/* Site title */
+.site-title {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
 } 
