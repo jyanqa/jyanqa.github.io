@@ -4,6 +4,10 @@ permalink: /year-archive/
 author_profile: true
 ---
 
+<div class="construction-notice">
+🚧 Under Construction 🚧
+</div>
+
 <div class="category-links">
   <p><a href="#ai">ai</a> | <a href="#data-science">data science</a> | <a href="#misc">misc</a></p>
 </div>
@@ -13,7 +17,7 @@ author_profile: true
   {% if ai_posts.size > 0 %}
     {% for post in ai_posts %}
       <div class="post-entry">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
       </div>
     {% endfor %}
   {% else %}
@@ -26,7 +30,7 @@ author_profile: true
   {% if ds_posts.size > 0 %}
     {% for post in ds_posts %}
       <div class="post-entry">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
       </div>
     {% endfor %}
   {% else %}
@@ -39,7 +43,7 @@ author_profile: true
   {% if misc_posts.size > 0 %}
     {% for post in misc_posts %}
       <div class="post-entry">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
       </div>
     {% endfor %}
   {% else %}
@@ -67,20 +71,34 @@ author_profile: true
 }
 .post-entry {
   margin-bottom: 1em;
+  text-align: left;
+  padding: 0 1.5em;
 }
-.post-entry h3 {
-  margin: 0;
-  color: #008080;
-}
-.post-entry h3 a {
+.post-title {
   text-decoration: none;
-  color: inherit;
+  color: #333333;
+  margin: 0 1em;
+  font-size: 1em;
+  font-weight: normal;
 }
-.post-entry h3 a:hover {
+.post-title:hover {
+  color: #008080;
   text-decoration: underline;
 }
 .no-posts {
   color: #666;
   font-style: italic;
+  text-align: center;
+}
+.construction-notice {
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #fff8e6;
+  border: 1px solid #ffe0b2;
+  border-radius: 4px;
+  color: #666;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9em;
 }
 </style>
