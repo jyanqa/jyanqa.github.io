@@ -1,21 +1,21 @@
 # main links links
 main:
-  - title: "home"
+  - title: "Home"
     url: /
 
-  - title: "news"
+  - title: "News"
     url: /news/
 
-  - title: "publications"
+  - title: "Publications"
     url: /publications/
 
-  - title: "archives"
-    url: /archives/
+  - title: "Archive"
+    url: /archive/
 
-  - title: "blog"
+  - title: "Blog"
     url: /year-archive/
 
-  - title: "contact"
+  - title: "Contact"
     url: /contact/
 
   # - title: "Teaching"
