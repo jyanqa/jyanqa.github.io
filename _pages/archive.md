@@ -9,7 +9,7 @@ author_profile: true
 {% capture written_year %}'None'{% endcapture %}
 ## Projects
 
-**ETH**
+**Project 1**
   Something something
 
 ## Hackathons
