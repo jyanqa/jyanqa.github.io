@@ -35,7 +35,7 @@
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
       {% if author.newsletter %}
-        <li><a href="{{ author.newsletter }}" target="_blank"><i class="fas fa-fw fa-rss" aria-hidden="true"></i> Newsletter</a></li>
+        <li><a href="{{ author.newsletter }}" target="_blank"><i class="fas fa-fw fa-envelope-open-text" aria-hidden="true"></i> Newsletter</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -44,7 +44,7 @@
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
       {% if author.x %}
-        <li><a href="https://x.com/{{ author.x }}"><img src="{{ base_path }}/images/logo-x-14.png" alt="X" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: middle;"> X</a></li>
+        <li><a href="https://x.com/{{ author.x }}"><img src="{{ base_path }}/images/logo-x-14.png" alt="X" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: middle;"> X (formerly Twitter)</a></li>
       {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>

@@ -10,25 +10,41 @@ author_profile: true
 
 ## Publications
 
-<div class="publications" markdown="1">
+<style>
+.pub-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.pub-table td {
+  border: none;
+  padding: 8px 0;
+  vertical-align: top;
+}
+.pub-table td:first-child {
+  width: 20%;
+  font-weight: bold;
+}
+</style>
 
-<table style="width:100%; border:none;">
+<div class="publications">
+<table class="pub-table">
+<tbody>
 <tr>
-<td style="width:20%; vertical-align:top; border:none;"><strong>EMNLP 2022</strong></td>
-<td style="border:none;">[Causality Detection using Multiple Annotation Decisions](https://aclanthology.org/2022.case-1.11.pdf)</td>
+<td>EMNLP 2022</td>
+<td><a href="https://aclanthology.org/2022.case-1.11.pdf">Causality Detection using Multiple Annotation Decisions</a></td>
 </tr>
 
 <tr>
-<td style="width:20%; vertical-align:top; border:none;"><strong>CLEF 2022</strong></td>
-<td style="border:none;">[Exploring Transformers for Multilingual Historical Named Entity Recognition](https://ceur-ws.org/Vol-3180/paper-86.pdf)</td>
+<td>CLEF 2022</td>
+<td><a href="https://ceur-ws.org/Vol-3180/paper-86.pdf">Exploring Transformers for Multilingual Historical Named Entity Recognition</a></td>
 </tr>
 
 <tr>
-<td style="width:20%; vertical-align:top; border:none;"><strong>COLING 2022</strong></td>
-<td style="border:none;">[The Curious Case of Logistic Regression for Italian Languages and Dialects Identification](https://aclanthology.org/2022.vardial-1.10.pdf)</td>
+<td>COLING 2022</td>
+<td><a href="https://aclanthology.org/2022.vardial-1.10.pdf">The Curious Case of Logistic Regression for Italian Languages and Dialects Identification</a></td>
 </tr>
+</tbody>
 </table>
-
 </div>
 
 <!-- {% include base_path %}

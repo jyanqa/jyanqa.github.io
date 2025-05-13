@@ -83,6 +83,7 @@ author:
   name             : ""
   avatar           : "profile.jpg"
   bio              : ""
+  location         : "Zurich"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Nfa3qAsAAAAJ"
@@ -114,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  newsletter       : "https://substack.jyanqa.com"  # your newsletter URL
 
 
 # Reading Files
