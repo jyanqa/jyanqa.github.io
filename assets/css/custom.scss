@@ -2,6 +2,17 @@
 sitemap: false
 ---
 
+/* Global link styles */
+a {
+  color: #9370DB;
+  text-decoration: none;
+  
+  &:hover {
+    color: darken(#9370DB, 15%);
+    text-decoration: underline;
+  }
+}
+
 /* Custom footer styles */
 .page__footer {
   margin-top: 2em;
@@ -30,7 +41,7 @@ sitemap: false
           color: #666;
           
           &:hover {
-            color: #008080;
+            color: #9370DB;
           }
         }
       }
@@ -45,9 +56,10 @@ sitemap: false
     margin: 0;
     
     a {
-      color: #008080;
+      color: #9370DB;
       
       &:hover {
+        color: darken(#9370DB, 15%);
         text-decoration: underline;
       }
     }
