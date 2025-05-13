@@ -13,11 +13,11 @@ body {
 
 /* Global link styles */
 a {
-  color: #008B8B;
+  color: #008080;
   text-decoration: none !important;
   
   &:hover {
-    color: darken(#008B8B, 15%);
+    color: darken(#008080, 15%);
     text-decoration: none !important;
   }
 }
@@ -46,7 +46,7 @@ a {
     color: #555;
     
     &:hover {
-      color: #008B8B;
+      color: #008080;
     }
   }
 }
@@ -56,7 +56,7 @@ a {
     color: #555;
     
     &:hover {
-      color: #008B8B;
+      color: #008080;
     }
   }
 }
@@ -65,15 +65,15 @@ a {
 .anonymous-message-box {
   textarea {
     &:focus {
-      border-color: #008B8B;
+      border-color: #008080;
     }
   }
 
   button {
-    background-color: #008B8B;
+    background-color: #008080;
     
     &:hover {
-      background-color: darken(#008B8B, 10%);
+      background-color: darken(#008080, 10%);
     }
   }
 }
@@ -84,10 +84,10 @@ a {
   font-weight: 400;
   
   a {
-    color: #008B8B;
+    color: #008080;
     
     &:hover {
-      color: #008B8B;
+      color: #008080;
     }
   }
 }
@@ -98,7 +98,7 @@ a {
   font-weight: 700;
   
   &:hover {
-    color: #008B8B;
+    color: #008080;
   }
 }
 
@@ -131,7 +131,7 @@ a {
           color: #666;
           
           &:hover {
-            color: #008B8B;
+            color: #008080;
           }
         }
       }
@@ -147,10 +147,10 @@ a {
     font-family: "Oxygen", sans-serif;
     
     a {
-      color: #008B8B;
+      color: #008080;
       
       &:hover {
-        color: darken(#008B8B, 15%);
+        color: darken(#008080, 15%);
         text-decoration: none;
       }
     }
@@ -159,48 +159,48 @@ a {
 
 .greedy-nav {
   a {
-    color: #008B8B;
+    color: #008080;
   }
   
   .visible-links {
     a {
       &:before {
-        border-color: #008B8B;
+        border-color: #008080;
       }
     }
   }
   
   .btn {
-    background-color: #008B8B;
+    background-color: #008080;
     
     &:hover {
-      background-color: darken(#008B8B, 10%);
+      background-color: darken(#008080, 10%);
     }
   }
 }
 
 .page__meta {
-  color: #008B8B;
+  color: #008080;
 }
 
 .archive__item-title {
   a {
-    color: #008B8B;
+    color: #008080;
   }
 }
 
 .social-icons {
   .fa {
-    color: #008B8B;
+    color: #008080;
   }
 }
 
 .author__urls {
   a {
-    color: #008B8B;
+    color: #008080;
     
     &:hover {
-      color: darken(#008B8B, 15%);
+      color: darken(#008080, 15%);
     }
   }
 } 
