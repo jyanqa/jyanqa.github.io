@@ -3,6 +3,9 @@ main:
   - title: "about me"
     url: /
 
+  - title: "news"
+    url: /news/
+
   - title: "publications"
     url: /publications/
 
