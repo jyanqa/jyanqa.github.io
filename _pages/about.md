@@ -4,9 +4,11 @@ permalink: /
 author_profile: true
 ---
 
-I'm Anh 👋, a graduate student in Data Science with a focus on Machine Learning and Natural Language Processing.
+Hi, I’m Anh 👋
 
-At [KNIME](https://www.knime.com), I had the chance to work on sports-related research applications using Machine Learning, e.g. [Does body size matter in Triathlon?](https://www.knime.com/blog/does-body-size-matter-in-triathlon). 
+I'm a Data Science graduate with a focus on Machine Learning and Natural Language Processing.
+
+At [KNIME](https://www.knime.com), I had the chance to work on research applications using Machine Learning, e.g. [Does body size matter in Triathlon?](https://www.knime.com/blog/does-body-size-matter-in-triathlon). 
 
 My master's [thesis](https://drive.google.com/file/d/1eVe5mFt36n26ADedGGOQgyazaaOQSimQ/view) at [ETH Zurich's LRE Lab](https://lre.inf.ethz.ch) explored the effectiveness of Large Language Models for predicting prerequisite networks in textbooks. 
 
