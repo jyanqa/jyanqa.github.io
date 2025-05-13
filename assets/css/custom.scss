@@ -4,11 +4,11 @@ sitemap: false
 
 /* Global link styles */
 a {
-  color: #5F9EA0;
+  color: #DA70D6;
   text-decoration: none !important;
   
   &:hover {
-    color: darken(#5F9EA0, 15%);
+    color: darken(#DA70D6, 15%);
     text-decoration: none !important;
   }
 }
@@ -52,7 +52,7 @@ a {
           color: #666;
           
           &:hover {
-            color: #5F9EA0;
+            color: #DA70D6;
           }
         }
       }
@@ -67,10 +67,10 @@ a {
     margin: 0;
     
     a {
-      color: #5F9EA0;
+      color: #DA70D6;
       
       &:hover {
-        color: darken(#5F9EA0, 15%);
+        color: darken(#DA70D6, 15%);
         text-decoration: none;
       }
     }
