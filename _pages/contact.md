@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /contact/
-author_profile: true
+author_profile: false
 ---
 
 <div class="contact-links">
