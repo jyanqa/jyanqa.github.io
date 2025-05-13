@@ -44,10 +44,23 @@ sitemap: false
 /* Custom styles */
 body {
   background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .page__content {
   background-color: #ffffff;
+  
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
 }
 
 .initial-content, 
@@ -58,4 +71,14 @@ body {
 .masthead,
 .page__footer {
   background-color: #ffffff;
+}
+
+.site-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.nav__items {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
