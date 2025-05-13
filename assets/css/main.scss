@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     
     &:hover {
-      color: #008B8B;
+      color: #008080;
       text-decoration: underline;
     }
   }
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0.5em;
     
     &:hover {
-      color: #008B8B;
+      color: #008080;
       text-decoration: underline;
     }
   }
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
     &:focus {
       outline: none;
-      border-color: #008B8B;
+      border-color: #008080;
     }
   }
 
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
     min-width: 110px;
     padding: 0.6em 1.1em;
-    background-color: #008B8B;
+    background-color: #008080;
     color: white;
     border: none;
     border-radius: 4px;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.9em;
 
     &:hover {
-      background-color: darken(#008B8B, 10%);
+      background-color: darken(#008080, 10%);
     }
   }
 
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", sans-serif;
 
     a {
-      color: #008B8B;
+      color: #008080;
       text-decoration: none;
 
       &:hover {
@@ -255,38 +255,10 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
         
         &:hover {
-          color: #008B8B;
+          color: #008080;
           text-decoration: underline;
         }
       }
     }
-  }
-}
-
-.page__meta {
-  color: #008B8B;
-}
-
-.archive__item-title {
-  a {
-    color: #008B8B;
-  }
-}
-
-.btn--primary {
-  border-color: #008B8B;
-}
-
-.btn--primary:hover {
-  background-color: #008B8B;
-}
-
-.btn--primary:hover:visited {
-  background-color: darken(#008B8B, 10%);
-}
-
-.social-icons {
-  .fa {
-    color: #008B8B;
   }
 }
