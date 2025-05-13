@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Conference Workshop Papers
+## Publications
 
 * **[Improving Cross-Domain Named Entity Recognition with Multi-Task Learning and Domain Adaptation](https://aclanthology.org/2022.case-1.11.pdf)**  
   *EMNLP Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE) 2022*

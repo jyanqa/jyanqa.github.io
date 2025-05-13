@@ -1,18 +1,18 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "about me"
     url: /
 
-  - title: "Blog"
-    url: /year-archive/
-    
-  - title: "Publications"
+  - title: "publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "archives"
+    url: /archives/
 
-  - title: "Contact"
+  - title: "blog"
+    url: /year-archive/
+
+  - title: "contact"
     url: /contact/
 
   # - title: "Teaching"
