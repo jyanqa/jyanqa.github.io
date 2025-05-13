@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
+
 ## Publications
 
 * **[Improving Cross-Domain Named Entity Recognition with Multi-Task Learning and Domain Adaptation](https://aclanthology.org/2022.case-1.11.pdf)**  
