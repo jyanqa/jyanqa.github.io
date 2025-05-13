@@ -18,6 +18,7 @@ author_profile: true
     {% for post in ai_posts %}
       <div class="post-entry">
         <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       </div>
     {% endfor %}
   {% else %}
@@ -31,6 +32,7 @@ author_profile: true
     {% for post in ds_posts %}
       <div class="post-entry">
         <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       </div>
     {% endfor %}
   {% else %}
@@ -44,6 +46,7 @@ author_profile: true
     {% for post in misc_posts %}
       <div class="post-entry">
         <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       </div>
     {% endfor %}
   {% else %}
@@ -73,17 +76,26 @@ author_profile: true
   margin-bottom: 1em;
   text-align: left;
   padding: 0 1.5em;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 .post-title {
   text-decoration: none;
   color: #333333;
-  margin: 0 1em;
   font-size: 1em;
   font-weight: normal;
+  margin-right: 1em;
 }
 .post-title:hover {
   color: #008080;
   text-decoration: underline;
+}
+.post-date {
+  color: #666666;
+  font-size: 0.9em;
+  font-family: "Lato", sans-serif;
+  white-space: nowrap;
 }
 .no-posts {
   color: #666;
