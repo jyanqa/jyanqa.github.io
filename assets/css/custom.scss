@@ -13,11 +13,11 @@ body {
 
 /* Global link styles */
 a {
-  color: #6B8E23;
+  color: #00CED1;
   text-decoration: none !important;
   
   &:hover {
-    color: darken(#6B8E23, 15%);
+    color: darken(#00CED1, 15%);
     text-decoration: none !important;
   }
 }
@@ -40,24 +40,84 @@ a {
   }
 }
 
+/* Blog styles */
+.post-entry {
+  .post-title {
+    color: #555;
+    
+    &:hover {
+      color: #00CED1;
+    }
+  }
+}
+
+.category-links {
+  a {
+    color: #555;
+    
+    &:hover {
+      color: #00CED1;
+    }
+  }
+}
+
+/* Contact form styles */
+.anonymous-message-box {
+  textarea {
+    &:focus {
+      border-color: #00CED1;
+    }
+  }
+
+  button {
+    background-color: #00CED1;
+    
+    &:hover {
+      background-color: darken(#00CED1, 10%);
+    }
+  }
+}
+
+/* Navigation styles */
+.nav__items {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  
+  a {
+    &:hover {
+      color: #00CED1;
+    }
+  }
+}
+
+/* Site title */
+.site-title {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  
+  &:hover {
+    color: #00CED1;
+  }
+}
+
 /* Custom footer styles */
 .page__footer {
-  margin-top: 2em;
-  padding-top: 1em;
-  font-size: 0.8em;
+  margin-top: 1.5em;
+  padding-top: 0.8em;
+  font-size: 0.75em;
   
   .page__footer-follow {
     ul.social-icons {
       margin: 0;
-      padding: 0.5em 0;
+      padding: 0.3em 0;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
       gap: 1em;
       
       li {
         padding: 0;
-        font-size: 0.85em;
+        font-size: 0.8em;
         font-family: "Oxygen", sans-serif;
         
         &:before {
@@ -69,7 +129,7 @@ a {
           color: #666;
           
           &:hover {
-            color: #6B8E23;
+            color: #00CED1;
           }
         }
       }
@@ -77,32 +137,20 @@ a {
   }
   
   .page__footer-copyright {
-    font-size: 0.75em;
-    text-align: center;
+    font-size: 0.7em;
+    text-align: left;
     color: #666;
-    padding: 0.5em 1em;
+    padding: 0.5em 0;
     margin: 0;
     font-family: "Oxygen", sans-serif;
     
     a {
-      color: #6B8E23;
+      color: #00CED1;
       
       &:hover {
-        color: darken(#6B8E23, 15%);
+        color: darken(#00CED1, 15%);
         text-decoration: none;
       }
     }
   }
-}
-
-/* Navigation styles */
-.nav__items {
-  font-family: "Oxygen", sans-serif;
-  font-weight: 400;
-}
-
-/* Site title */
-.site-title {
-  font-family: "Oxygen", sans-serif;
-  font-weight: 700;
 } 
