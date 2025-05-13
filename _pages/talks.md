@@ -5,6 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
+<!-- Content coming soon -->
+
 ## Competition Presentations
 
 * **Hate Speech Detection Challenge**  

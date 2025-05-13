@@ -5,12 +5,14 @@ permalink: /contact/
 author_profile: true
 ---
 
+<!-- Content coming soon -->
+
 ## Get in Touch
 
-📧 Email: [anhmilan@gmail.com](mailto:anhmilan@gmail.com)
+📧 [Email](mailto:anhmilan@gmail.com)
 
-🔗 LinkedIn: [aeghnquy](https://www.linkedin.com/in/aeghnquy)
+🔗 [LinkedIn](https://www.linkedin.com/in/aeghnquy)
 
-💻 GitHub: [jyanqa](https://github.com/jyanqa)
+💻 [GitHub](https://github.com/jyanqa)
 
 📍 Location: Zurich, Switzerland 
