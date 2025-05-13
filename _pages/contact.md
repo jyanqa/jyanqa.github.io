@@ -9,8 +9,6 @@ author_profile: true
 
 ## Get in Touch
 
-📧 [Email](mailto:anhmilan@gmail.com)
-
-🔗 [LinkedIn](https://www.linkedin.com/in/aeghnquy)
-
-💻 [GitHub](https://github.com/jyanqa) 
+<div class="contact-links">
+[Email](mailto:anhmilan@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aeghnquy) | [GitHub](https://github.com/jyanqa)
+</div> 
