@@ -10,7 +10,8 @@ author_profile: true
 
 ## Publications
 
-<div class="publications">
+<div class="publications" markdown="1">
+
 [Causality Detection using Multiple Annotation Decisions](https://aclanthology.org/2022.case-1.11.pdf)  
 *EMNLP Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE) 2022*
 
@@ -19,6 +20,7 @@ author_profile: true
 
 [The Curious Case of Logistic Regression for Italian Languages and Dialects Identification](https://aclanthology.org/2022.vardial-1.10.pdf)  
 *COLING Workshop on NLP for Similar Languages, Varieties and Dialects*
+
 </div>
 
 <!-- {% include base_path %}

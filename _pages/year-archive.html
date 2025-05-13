@@ -9,10 +9,10 @@ author_profile: true
 </div>
 
 <div class="category-links">
-  <p><a href="#ai">ai</a> | <a href="#data-science">data science</a> | <a href="#misc">misc</a></p>
+  <p><a href="#ai-ml">AI/ML</a> | <a href="#data-science">Data Science</a> | <a href="#miscellaneous">Miscellaneous</a></p>
 </div>
 
-<div id="ai" class="category-section">
+<div id="ai-ml" class="category-section">
   {% assign ai_posts = site.posts | where: "categories", "ai" %}
   {% if ai_posts.size > 0 %}
     {% for post in ai_posts %}
@@ -40,7 +40,7 @@ author_profile: true
   {% endif %}
 </div>
 
-<div id="misc" class="category-section">
+<div id="miscellaneous" class="category-section">
   {% assign misc_posts = site.posts | where: "categories", "misc" %}
   {% if misc_posts.size > 0 %}
     {% for post in misc_posts %}
