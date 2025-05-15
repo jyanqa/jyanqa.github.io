@@ -9,6 +9,10 @@ author_profile: true
 
 Welcome to my sports corner! Here I share my thoughts about various sports, from football to tennis, and everything in between.
 
+### Running Journey
+
+[Follow my running activities on Strava](https://www.strava.com/athletes/jyanqa)
+
 ### Recent Updates
 
 <div class="sports-updates">
@@ -41,5 +45,15 @@ Welcome to my sports corner! Here I share my thoughts about various sports, from
 .update-card h3 {
   color: #008080;
   margin-top: 0;
+}
+
+a {
+  color: #008080;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006666;
+  text-decoration: underline;
 }
 </style> 
