@@ -11,7 +11,9 @@ author_profile: true
   <div class="page-content">
     <div class="main-content">
       <h2>🏃‍♂️ Sports</h2>
-      <p><a href="/off-topic/sports/">Read my sports thoughts and updates</a></p>
+      <div class="sports-section">
+        <a href="/off-topic/sports/" class="sports-btn">Sports Updates</a>
+      </div>
 
       <h2>🌟 Language Learning</h2>
       <div class="language-section">
@@ -50,7 +52,7 @@ author_profile: true
             allowfullscreen>
           </iframe>
         </div>
-        <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive - ODESZA</a></p>
+        <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive</a></p>
       </div>
     </div>
   </div>
@@ -170,6 +172,27 @@ a {
 a:hover {
   color: #006666;
   text-decoration: underline;
+}
+
+.sports-section {
+  margin: 10px 0;
+}
+
+.sports-btn {
+  display: inline-block;
+  background-color: #008080;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.85em;
+  transition: background-color 0.3s;
+}
+
+.sports-btn:hover {
+  background-color: #006666;
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
