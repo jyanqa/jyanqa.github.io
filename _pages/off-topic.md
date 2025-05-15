@@ -10,58 +10,82 @@ author_profile: true
   <p>Adding a bit of human touch to this blog - because life isn't just about research and work!</p>
 </div>
 
-## 🎵 Music
+<div class="two-column-layout">
+  <div class="left-column">
+    ## 🏃‍♂️ Sports
 
-<div class="music-section">
-  <div class="music-player">
-    <iframe 
-      width="100%" 
-      height="20" 
-      src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
-      title="YouTube music player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
+    [Read my sports thoughts and updates](/off-topic/sports/)
+
+    ## 🌟 Language Learning
+
+    <div class="language-section">
+      <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
+    </div>
+
+    ## 🎬 Movies
+
+    <div class="movies-section">
+      <p class="movie-note">These are my favorite movies:</p>
+      <div class="movie-list">
+        <div class="movie-item">Blade Runner (1982)</div>
+        <div class="movie-item">La Strada (1954)</div>
+        <div class="movie-item">Anatomy of a Fall (2023)</div>
+        <div class="movie-item">Brokeback Mountain (2005)</div>
+        <div class="movie-item">The Devil, Probably (1977)</div>
+        <div class="movie-item">Casablanca (1942)</div>
+        <div class="movie-item">The Great Gatsby (2013)</div>
+      </div>
+      <div class="movie-actions">
+        <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
+      </div>
+    </div>
   </div>
-  <p class="music-note">My favorite song recently, a bit jazzy for an old one: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">The Last Goodbye - ODESZA</a></p>
-</div>
 
-## 🏃‍♂️ Sports
+  <div class="right-column">
+    ## 🎵 Music
 
-[Read my sports thoughts and updates](/off-topic/sports/)
-
-## 🌟 Language Learning
-
-<div class="language-section">
-  <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
-</div>
-
-## 🎬 Movies
-
-<div class="movies-section">
-  <p class="movie-note">These are my favorite movies:</p>
-  <div class="movie-list">
-    <div class="movie-item">Blade Runner (1982)</div>
-    <div class="movie-item">La Strada (1954)</div>
-    <div class="movie-item">Anatomy of a Fall (2023)</div>
-    <div class="movie-item">Brokeback Mountain (2005)</div>
-    <div class="movie-item">The Devil, Probably (1977)</div>
-    <div class="movie-item">Casablanca (1942)</div>
-    <div class="movie-item">The Great Gatsby (2013)</div>
-  </div>
-  <div class="movie-actions">
-    <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
+    <div class="music-section">
+      <div class="music-player">
+        <iframe 
+          width="100%" 
+          height="60" 
+          src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
+          title="YouTube music player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">The Last Goodbye - ODESZA</a></p>
+    </div>
   </div>
 </div>
 
 <style>
+.two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.left-column, .right-column {
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .two-column-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 .music-section {
   margin: 15px 0;
 }
 
 .music-player {
-  max-width: 100px;
+  max-width: 300px;
   margin: 10px 0;
   border-radius: 4px;
   overflow: hidden;
