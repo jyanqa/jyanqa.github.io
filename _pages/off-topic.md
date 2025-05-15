@@ -10,57 +10,72 @@ author_profile: true
   <p>Adding a bit of human touch to this blog - because life isn't just about research and work!</p>
 </div>
 
-## 🏃‍♂️ Sports
+<div class="page-content">
+  <div class="main-content">
+    <h2>🏃‍♂️ Sports</h2>
+    <p><a href="/off-topic/sports/">Read my sports thoughts and updates</a></p>
 
-[Read my sports thoughts and updates](/off-topic/sports/)
+    <h2>🌟 Language Learning</h2>
+    <div class="language-section">
+      <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
+    </div>
 
-## 🌟 Language Learning
-
-<div class="language-section">
-  <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
-</div>
-
-## 🎬 Movies
-
-<div class="movies-section">
-  <p class="movie-note">These are my favorite movies:</p>
-  <div class="movie-list">
-    <div class="movie-item">Blade Runner (1982)</div>
-    <div class="movie-item">La Strada (1954)</div>
-    <div class="movie-item">Anatomy of a Fall (2023)</div>
-    <div class="movie-item">Brokeback Mountain (2005)</div>
-    <div class="movie-item">The Devil, Probably (1977)</div>
-    <div class="movie-item">Casablanca (1942)</div>
-    <div class="movie-item">The Great Gatsby (2013)</div>
+    <h2>🎬 Movies</h2>
+    <div class="movies-section">
+      <p class="movie-note">These are my favorite movies:</p>
+      <div class="movie-list">
+        <div class="movie-item">Blade Runner (1982)</div>
+        <div class="movie-item">La Strada (1954)</div>
+        <div class="movie-item">Anatomy of a Fall (2023)</div>
+        <div class="movie-item">Brokeback Mountain (2005)</div>
+        <div class="movie-item">The Devil, Probably (1977)</div>
+        <div class="movie-item">Casablanca (1942)</div>
+        <div class="movie-item">The Great Gatsby (2013)</div>
+      </div>
+      <div class="movie-actions">
+        <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
+      </div>
+    </div>
   </div>
-  <div class="movie-actions">
-    <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
-  </div>
-</div>
 
-## 🎵 Music
-
-<div class="music-section">
-  <div class="music-player">
-    <iframe 
-      width="100%" 
-      height="60" 
-      src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
-      title="YouTube music player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
+  <div class="sidebar">
+    <h2>🎵 Music</h2>
+    <div class="music-section">
+      <div class="music-player">
+        <iframe 
+          width="100%" 
+          height="60" 
+          src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
+          title="YouTube music player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive - ODESZA</a></p>
+    </div>
   </div>
-  <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive - ODESZA</a></p>
 </div>
 
 <style>
+.page-content {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.sidebar {
+  width: 45%;
+  min-width: 0;
+}
+
 .music-section {
   margin: 15px 0;
-  float: right;
-  width: 45%;
-  margin-left: 40px;
 }
 
 .music-player {
@@ -82,12 +97,10 @@ author_profile: true
   border-radius: 8px;
   margin: 10px 0;
   font-size: 0.9em;
-  max-width: 55%;
 }
 
 .movies-section {
   margin: 15px 0;
-  max-width: 55%;
 }
 
 .movie-note {
@@ -146,13 +159,13 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .music-section,
-  .language-section,
-  .movies-section {
-    float: none;
+  .page-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar {
     width: 100%;
-    margin-left: 0;
-    max-width: 100%;
   }
 }
 </style> 
