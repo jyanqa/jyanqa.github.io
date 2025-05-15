@@ -5,54 +5,29 @@ layout: single
 author_profile: true
 ---
 
-## 🏃‍♂️ My Sports Thoughts
+# Sports Corner
 
-Welcome to my sports corner! Here I share my thoughts about various sports, from football to tennis, and everything in between.
+## Recent Updates
 
-### Running Journey
+## Latest Sports Thoughts
 
-[Follow my running activities on Strava](https://www.strava.com/athletes/jyanqa)
+Coming soon...
 
-### Recent Updates
-
-<div class="sports-updates">
-  <!-- This section will be updated with new content -->
-  <div class="update-card">
-    <h3>Latest Sports Thoughts</h3>
-    <p>Coming soon...</p>
-  </div>
+<div class="strava-link">
+  <a href="https://www.strava.com/athletes/jyanqa" target="_blank">my strava</a>
 </div>
 
-### Favorite Sports
-
-- Football (Soccer)
-- Tennis
-- Basketball
-- Formula 1
-
 <style>
-.sports-updates {
+.strava-link {
   margin: 20px 0;
 }
 
-.update-card {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.update-card h3 {
-  color: #008080;
-  margin-top: 0;
-}
-
-a {
+.strava-link a {
   color: #008080;
   text-decoration: none;
 }
 
-a:hover {
+.strava-link a:hover {
   color: #006666;
   text-decoration: underline;
 }
