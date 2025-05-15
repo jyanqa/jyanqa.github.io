@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /
+permalink: /about/
 author_profile: true
 ---
 
-Hi, I’m Anh 👋
+Hi, I'm Anh 👋
 
 I'm a Data Science graduate with a focus on Machine Learning and Natural Language Processing.
 
