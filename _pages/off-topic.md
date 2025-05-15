@@ -5,6 +5,8 @@ layout: single
 author_profile: true
 ---
 
+<p class="page-description">Trying to add a bit more of human touch in this AI oriented content website</p>
+
 <div class="notice--info" style="display: none;">
   <h4>Why Off Topic?</h4>
   <p>Adding a bit of human touch to this blog - because life isn't just about research and work!</p>
@@ -156,6 +158,13 @@ a {
 a:hover {
   color: #006666;
   text-decoration: underline;
+}
+
+.page-description {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 30px;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

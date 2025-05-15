@@ -9,11 +9,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Archive"
-    url: /archive/
+  - title: "Projects"
+    url: /archives/
 
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
 
   - title: "off topic"
     url: /off-topic/
