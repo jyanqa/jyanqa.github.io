@@ -5,65 +5,75 @@ layout: single
 author_profile: true
 ---
 
-<p class="page-description">Trying to add a bit more of human touch in this AI oriented content website</p>
+<div class="off-topic-container">
+  <p class="page-description">Trying to add a bit more of human touch in this AI oriented content website</p>
 
-<div class="notice--info" style="display: none;">
-  <h4>Why Off Topic?</h4>
-  <p>Adding a bit of human touch to this blog - because life isn't just about research and work!</p>
-</div>
+  <div class="page-content">
+    <div class="main-content">
+      <h2>🏃‍♂️ Sports</h2>
+      <p><a href="/off-topic/sports/">Read my sports thoughts and updates</a></p>
 
-<div class="page-content">
-  <div class="main-content">
-    <h2>🏃‍♂️ Sports</h2>
-    <p><a href="/off-topic/sports/">Read my sports thoughts and updates</a></p>
-
-    <h2>🌟 Language Learning</h2>
-    <div class="language-section">
-      <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
-    </div>
-
-    <h2>🎬 Movies</h2>
-    <div class="movies-section">
-      <p class="movie-note">These are my favorite movies:</p>
-      <div class="movie-list">
-        <div class="movie-item">Blade Runner (1982)</div>
-        <div class="movie-item">La Strada (1954)</div>
-        <div class="movie-item">Anatomy of a Fall (2023)</div>
-        <div class="movie-item">Brokeback Mountain (2005)</div>
-        <div class="movie-item">The Devil, Probably (1977)</div>
-        <div class="movie-item">Casablanca (1942)</div>
-        <div class="movie-item">The Great Gatsby (2013)</div>
+      <h2>🌟 Language Learning</h2>
+      <div class="language-section">
+        <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
       </div>
-      <div class="movie-actions">
-        <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
+
+      <h2>🎬 Movies</h2>
+      <div class="movies-section">
+        <p class="movie-note">These are my favorite movies:</p>
+        <div class="movie-list">
+          <div class="movie-item">Blade Runner (1982)</div>
+          <div class="movie-item">La Strada (1954)</div>
+          <div class="movie-item">Anatomy of a Fall (2023)</div>
+          <div class="movie-item">Brokeback Mountain (2005)</div>
+          <div class="movie-item">The Devil, Probably (1977)</div>
+          <div class="movie-item">Casablanca (1942)</div>
+          <div class="movie-item">The Great Gatsby (2013)</div>
+        </div>
+        <div class="movie-actions">
+          <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="sidebar">
-    <h2>🎵 Music</h2>
-    <div class="music-section">
-      <div class="music-player">
-        <iframe 
-          width="100%" 
-          height="60" 
-          src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
-          title="YouTube music player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
+    <div class="sidebar">
+      <h2>🎵 Music</h2>
+      <div class="music-section">
+        <div class="music-player">
+          <iframe 
+            width="100%" 
+            height="60" 
+            src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
+            title="YouTube music player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive - ODESZA</a></p>
       </div>
-      <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive - ODESZA</a></p>
     </div>
   </div>
 </div>
 
 <style>
+.off-topic-container {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.page-description {
+  font-size: 1.1em;
+  color: #666;
+  margin: 0 0 30px 0;
+  font-style: italic;
+}
+
 .page-content {
   display: flex;
   gap: 40px;
-  margin: 20px 0;
+  margin: 0;
+  align-items: flex-start;
 }
 
 .main-content {
@@ -74,6 +84,8 @@ author_profile: true
 .sidebar {
   width: 45%;
   min-width: 0;
+  position: sticky;
+  top: 2em;
 }
 
 .music-section {
@@ -160,13 +172,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.page-description {
-  font-size: 1.1em;
-  color: #666;
-  margin-bottom: 30px;
-  font-style: italic;
-}
-
 @media (max-width: 768px) {
   .page-content {
     flex-direction: column;
@@ -175,6 +180,7 @@ a:hover {
   
   .sidebar {
     width: 100%;
+    position: static;
   }
 }
 </style> 
