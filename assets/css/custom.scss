@@ -176,4 +176,98 @@ a {
       }
     }
   }
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 100;
+  background: none;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  color: #008080;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --link-color: #00CED1;
+  --link-hover-color: #40E0D0;
+  --border-color: #333;
+  --code-bg: #2d2d2d;
+  --blockquote-bg: #2d2d2d;
+  --blockquote-border: #404040;
+}
+
+[data-theme="dark"] body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .page__content {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] a {
+  color: var(--link-color);
+}
+
+[data-theme="dark"] a:hover {
+  color: var(--link-hover-color);
+}
+
+[data-theme="dark"] .masthead,
+[data-theme="dark"] .page__footer {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] .site-title,
+[data-theme="dark"] .masthead__menu-item {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .greedy-nav .visible-links a:before {
+  background: var(--link-color);
+}
+
+[data-theme="dark"] .archive__item-title a {
+  color: var(--link-color);
+}
+
+[data-theme="dark"] .archive__item-title a:hover {
+  color: var(--link-hover-color);
+}
+
+[data-theme="dark"] .theme-toggle {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  color: var(--link-color);
+}
+
+[data-theme="dark"] .theme-toggle .fa-moon:before {
+  content: "\f185"; /* sun icon */
+}
+
+/* Light mode styles (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #555;
+  --link-color: #008080;
+  --link-hover-color: #00CED1;
+  --border-color: #e8e8e8;
+  --code-bg: #f8f8f8;
+  --blockquote-bg: #f8f8f8;
+  --blockquote-border: #e8e8e8;
 } 
