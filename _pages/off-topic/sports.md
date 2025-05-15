@@ -5,6 +5,14 @@ layout: single
 author_profile: true
 ---
 
+# Sports Corner
+
+## Recent Updates
+
+## Latest Sports Thoughts
+
+Coming soon...
+
 <div class="strava-link">
   <a href="https://www.strava.com/athletes/jyanqa" target="_blank">my strava</a>
 </div>
