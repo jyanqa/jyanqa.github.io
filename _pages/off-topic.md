@@ -5,9 +5,62 @@ layout: single
 author_profile: true
 ---
 
+<div class="off-topic-container">
+  <p class="page-description">Trying to add a bit more of human touch in this AI oriented content website</p>
+
+  <div class="page-content">
+    <div class="main-content">
+      <h2>🏃‍♂️ Sports</h2>
+      <div class="sports-section">
+        <a href="/off-topic/sports/" class="sports-btn">Sports Updates</a>
+      </div>
+
+      <h2>🌟 Language Learning</h2>
+      <div class="language-section">
+        <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
+      </div>
+
+      <h2>🎬 Movies</h2>
+      <div class="movies-section">
+        <p class="movie-note">These are my favorite movies:</p>
+        <div class="movie-list">
+          <div class="movie-item">Blade Runner (1982)</div>
+          <div class="movie-item">La Strada (1954)</div>
+          <div class="movie-item">Anatomy of a Fall (2023)</div>
+          <div class="movie-item">Brokeback Mountain (2005)</div>
+          <div class="movie-item">The Devil, Probably (1977)</div>
+          <div class="movie-item">Casablanca (1942)</div>
+          <div class="movie-item">The Great Gatsby (2013)</div>
+        </div>
+        <div class="movie-actions">
+          <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <h2>🎵 Music</h2>
+      <div class="music-section">
+        <div class="music-player">
+          <iframe 
+            width="100%" 
+            height="60" 
+            src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
+            title="YouTube music player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <style>
-.off-topic-wrapper {
-  margin-top: -2em;
+.off-topic-container {
+  margin-top: 0;
   padding-top: 0;
 }
 
@@ -153,57 +206,4 @@ a:hover {
     position: static;
   }
 }
-</style>
-
-<div class="off-topic-wrapper">
-  <p class="page-description">Trying to add a bit more of human touch in this AI oriented content website</p>
-
-  <div class="page-content">
-    <div class="main-content">
-      <h2>🏃‍♂️ Sports</h2>
-      <div class="sports-section">
-        <a href="/off-topic/sports/" class="sports-btn">Sports Updates</a>
-      </div>
-
-      <h2>🌟 Language Learning</h2>
-      <div class="language-section">
-        <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
-      </div>
-
-      <h2>🎬 Movies</h2>
-      <div class="movies-section">
-        <p class="movie-note">These are my favorite movies:</p>
-        <div class="movie-list">
-          <div class="movie-item">Blade Runner (1982)</div>
-          <div class="movie-item">La Strada (1954)</div>
-          <div class="movie-item">Anatomy of a Fall (2023)</div>
-          <div class="movie-item">Brokeback Mountain (2005)</div>
-          <div class="movie-item">The Devil, Probably (1977)</div>
-          <div class="movie-item">Casablanca (1942)</div>
-          <div class="movie-item">The Great Gatsby (2013)</div>
-        </div>
-        <div class="movie-actions">
-          <a href="/off-topic/movies/" class="movie-thoughts-btn">Share Movie Thoughts</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="sidebar">
-      <h2>🎵 Music</h2>
-      <div class="music-section">
-        <div class="music-player">
-          <iframe 
-            width="100%" 
-            height="60" 
-            src="https://www.youtube.com/embed/vMftCgwnR_c?autoplay=0" 
-            title="YouTube music player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
-        </div>
-        <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive</a></p>
-      </div>
-    </div>
-  </div>
-</div> 
+</style> 
