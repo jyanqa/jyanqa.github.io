@@ -17,7 +17,7 @@ author_profile: true
 
       <h2>🌟 Language Learning</h2>
       <div class="language-section">
-        <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
+        <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">via Duolingo</a></p>
       </div>
 
       <h2>🎬 Movies</h2>
