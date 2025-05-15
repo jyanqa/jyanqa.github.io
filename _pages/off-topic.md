@@ -52,7 +52,7 @@ author_profile: true
             allowfullscreen>
           </iframe>
         </div>
-        <p class="music-note">My favorite song recently: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive</a></p>
+        <p class="music-note">my recent obsession I keep in loop: <a href="https://www.youtube.com/watch?v=vMftCgwnR_c" target="_blank">I Will Survive</a></p>
       </div>
     </div>
   </div>
