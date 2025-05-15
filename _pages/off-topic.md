@@ -33,8 +33,8 @@ author_profile: true
 
 ## 🌟 Language Learning
 
-<div class="duolingo-section">
-  <p>Learning French on Duolingo! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress</a></p>
+<div class="language-section">
+  <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">Follow my progress on Duolingo</a></p>
 </div>
 
 ## 🎬 Movies
@@ -147,5 +147,22 @@ a {
 a:hover {
   color: #006666;
   text-decoration: underline;
+}
+
+.language-section {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+.language-section a {
+  color: #008080;
+  text-decoration: underline;
+}
+
+.language-section a:hover {
+  color: #006666;
 }
 </style> 
