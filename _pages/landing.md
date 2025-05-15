@@ -6,8 +6,8 @@ author_profile: true
 
 Hi, I'm Anh 👋
 
-I'm a Data Science graduate with a focus on Machine Learning and Natural Language Processing. Currently working at [KNIME](https://www.knime.com) on AI and Machine Learning research applications.
+I'm a Data Science graduate with a focus on Machine Learning and Natural Language Processing.
 
-I've been fortunate to win several AI/ML competitions at ETH Zurich, including challenges in [Hate Speech Detection](https://latsis2023.ethz.ch/program.html), [Arts Creation with LLMs](https://www.datathon.ai), and [Soccer Analytics](https://sn.ethz.ch/hs23/sasc.html).
+The main reason I started writing my personal website is to project something of the real me into virtual life. As AI continues to build more and more personalities, I want to leave my footprint in this evolution. Second, with AI developing so quickly, I'm starting to blog to share my thoughts about things and take notes on this rapid pace of change.
 
 [Learn more about me →](/about/) 
