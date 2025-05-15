@@ -10,17 +10,17 @@ author_profile: true
 
   <div class="page-content">
     <div class="main-content">
-      <h2>🏃‍♂️ Sports</h2>
+      <h2>Sports</h2>
       <div class="sports-section">
         <a href="/off-topic/sports/" class="sports-btn">Sports Updates</a>
       </div>
 
-      <h2>🌟 Language Learning</h2>
+      <h2>Language Learning</h2>
       <div class="language-section">
         <p>I am fluent in Vietnamese, English, and Italian. Currently learning French for fun! <a href="https://www.duolingo.com/profile/jyanqa" target="_blank">via Duolingo</a></p>
       </div>
 
-      <h2>🎬 Movies</h2>
+      <h2>Movies</h2>
       <div class="movies-section">
         <p class="movie-note">These are my favorite movies:</p>
         <div class="movie-list">
@@ -39,7 +39,7 @@ author_profile: true
     </div>
 
     <div class="sidebar">
-      <h2>🎵 Music</h2>
+      <h2>Music</h2>
       <div class="music-section">
         <div class="music-player">
           <iframe 
