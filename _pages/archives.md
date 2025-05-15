@@ -1,85 +1,35 @@
 ---
+layout: archive
 title: "Projects"
 permalink: /archives/
-layout: single
 author_profile: true
 ---
 
-<div class="projects-container">
-  <h2>Projects</h2>
-  <p>Here are some of my notable projects and hackathons:</p>
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
 
-  <div class="project-section">
-    <h3>Research Projects</h3>
-    <ul>
-      <li>
-        <strong>AI for Healthcare</strong>
-        <p>Developing machine learning models for early disease detection using medical imaging data.</p>
-      </li>
-      <li>
-        <strong>Natural Language Processing</strong>
-        <p>Working on multilingual text classification and sentiment analysis.</p>
-      </li>
-    </ul>
-  </div>
+## Projects
 
-  <div class="project-section">
-    <h3>Hackathons</h3>
-    <ul>
-      <li>
-        <strong>AI Hackathon 2023</strong>
-        <p>Developed an AI-powered solution for sustainable urban planning.</p>
-      </li>
-      <li>
-        <strong>Data Science Challenge 2022</strong>
-        <p>Created a predictive model for environmental impact assessment.</p>
-      </li>
-    </ul>
-  </div>
-</div>
+**Project 1**
+  Something something
 
-<style>
-.projects-container {
-  margin-top: 0;
-  padding-top: 0;
-}
+## Hackathons
 
-.project-section {
-  margin: 30px 0;
-}
+**ETH Latsis Symposium 2023**
+  Hate Speech Detection Challenge | [Event Details](https://latsis2023.ethz.ch/program.html)
 
-.project-section h3 {
-  color: #008080;
-  margin-bottom: 15px;
-}
+**ETH Datathon.AI 2023**
+  Arts Creation with LLMs Prompting | [Event Details](https://www.datathon.ai)
 
-.project-section ul {
-  list-style: none;
-  padding-left: 0;
-}
+**ETH Sports Analytics Student Challenge 2023**
+  Soccer Analytics Challenge | [Event Details](https://sn.ethz.ch/hs23/sasc.html)
 
-.project-section li {
-  margin-bottom: 20px;
-  padding-left: 20px;
-  position: relative;
-}
+{% comment %}
+This page will contain an archive of various content including:
+- Past projects
+- Historical documents
+- Previous work
+- Important milestones
 
-.project-section li:before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #008080;
-}
-
-.project-section strong {
-  display: block;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.project-section p {
-  margin: 0;
-  color: #666;
-  font-size: 0.9em;
-}
-</style> 
+Content will be organized chronologically with the most recent items appearing first.
+{% endcomment %} 
