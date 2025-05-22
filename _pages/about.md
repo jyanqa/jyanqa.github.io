@@ -4,6 +4,8 @@ permalink: /about/
 author_profile: true
 ---
 
+My name is Quynh Anh, pronounced /kwin an/.
+
 I'm a Data Science graduate with a focus on Machine Learning and Natural Language Processing.
 
 During my internship at a [software company](https://www.knime.com), I had the chance to work on research applications using AI and Machine Learning, e.g. [Does body size matter in Triathlon?](https://www.knime.com/blog/does-body-size-matter-in-triathlon) or applying [Open Source Vision Models](https://www.knime.com/blog/ai-in-sports-analytics-object-detection) for object detection and tracking in soccer. 
