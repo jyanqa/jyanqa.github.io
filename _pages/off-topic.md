@@ -84,18 +84,21 @@ author_profile: true
 }
 
 .sidebar {
-  width: 45%;
-  min-width: 0;
+  width: 300px;
+  min-width: 300px;
   position: sticky;
   top: 2em;
+  overflow: hidden;
 }
 
 .music-section {
   margin: 15px 0;
+  width: 100%;
 }
 
 .music-player {
-  max-width: 300px;
+  width: 100%;
+  max-width: 100%;
   margin: 10px 0;
   border-radius: 4px;
   overflow: hidden;
@@ -105,6 +108,7 @@ author_profile: true
   font-size: 0.9em;
   color: #666;
   margin-top: 5px;
+  word-wrap: break-word;
 }
 
 .language-section {
@@ -198,12 +202,16 @@ a:hover {
 @media (max-width: 768px) {
   .page-content {
     flex-direction: column;
-    gap: 20px;
   }
   
   .sidebar {
     width: 100%;
+    min-width: 100%;
     position: static;
+  }
+  
+  .music-player {
+    max-width: 100%;
   }
 }
 </style> 
