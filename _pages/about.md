@@ -4,7 +4,7 @@ permalink: /about/
 author_profile: true
 ---
 
-My name is Quynh Anh, pronounced /kwin an/.
+My full name is Nguyen Quynh Anh (/ŋwiən kwin an/), but friends call me short Anh.
 
 I'm a Data Science graduate with a focus on Machine Learning and Natural Language Processing.
 
